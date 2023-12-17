@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz</title>
+</head>
+<body><center>
+    <h1>QUIZZ TIME..!!</h1>
+    <div class="q1" id="q1"><p>Inside which HTML element do we put the JavaScript?</p></div>
+    <div class="o1" id="o1">
+        <button id="aq1" onclick="verify('a', 'q1')"><< js >></button>
+        <button id="bq1" onclick="verify('b', 'q1')"><< scripting >></button><br><br>
+        <button id="cq1" onclick="verify('c', 'q1')"><< javasacipt ></button>
+        <button id="dq1" onclick="verify('d', 'q1')"><< script >></button>
+    </div>
+    <div class="q2" id="q2"><p>How do you write "Hello World" in an alert box?</p></div>
+    <div class="o2" id="o2">
+        <button id="aq2" onclick="verify('a', 'q2')">msgBox("Hello World")</button>
+        <button id="bq2" onclick="verify('b', 'q2')">msg("Hello World")/button><br><br>
+        <button id="cq2" onclick="verify('c', 'q2')">alert("Hello World")</button>
+        <button id="dq2" onclick="verify('d', 'q2')">alertBox("Hello World")</button>
+    </div>
+    <div class="q3" id="q3"><p>How do you create a function in JavaScript?</p></div>
+    <div class="o3" id="o3">
+        <button id="aq3" onclick="verify('a', 'q3')">function:myfunction()</button>
+        <button id="bq3" onclick="verify('b', 'q3')">function myfunction()</button><br><br>
+        <button id="cq3" onclick="verify('c', 'q3')">function :: myfunction()</button>
+        <button id="dq3" onclick="verify('d', 'q3')">function = myfunction()</button>
+    </div>    
+    <div class="q4" id="q4"><p>How to write an IF statement in JavaScript?</p></div>
+    <div class="o4" id="o4">
+        <button id="aq4" onclick="verify('a', 'q4')">if i = 5 then</button>
+        <button id="bq4" onclick="verify('b', 'q4')">if i == 5 then</button><br><br>
+        <button id="cq4" onclick="verify('c', 'q4')">if i = 5</button>
+        <button id="dq4" onclick="verify('d', 'q4')">if (i = 5)</button>
+    </div>
+    <div class="q5" id="q5"><p>How does a WHILE loop start?</p></div>
+    <div class="o5" id="o5">
+        <button id="aq5" onclick="verify('a', 'q5')">while i in range (10)</button>
+        <button id="bq5" onclick="verify('b', 'q5')">while i = 1 to 10 then</button><br><br>
+        <button id="cq5" onclick="verify('c', 'q5')">while (i <= 10)</button>
+        <button id="dq5" onclick="verify('d', 'q5')">while(i <= 10; i++)</button>
+    </div>
+    <div class="q6" id="q6"><p>How can you add a comment in a JavaScript?</p></div>
+    <div class="o6" id="o6">
+        <button id="aq6" onclick="verify('a', 'q6')">//Comment</button>
+        <button id="bq6" onclick="verify('b', 'q6')">#Comment</button><br><br>
+        <button id="cq6" onclick="verify('c', 'q6')">$Comment</button>
+        <button id="dq6" onclick="verify('d', 'q6')">-->Comment</button>
+    </div>
+    <div class="q7" id="q7"><p>What is the correct way to write a JavaScript array?</p></div>
+    <div class="o7" id="o7">
+        <button id="aq7" onclick="verify('a', 'q7')"> var colors = "red", "green", "blue"</button>
+        <button id="bq7" onclick="verify('b', 'q7')"> var colors = ["red", "green", "blue"]</button><br><br>
+        <button id="cq7" onclick="verify('c', 'q7')"> var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")</button>
+        <button id="dq7" onclick="verify('d', 'q7')"> var colors = (1:"red", 2:"green", 3:"blue")</button>
+    </div>
+    <div class="q8" id="q8"><p>How do you round the number 7.25, to the nearest integer?</p></div>
+    <div class="o8" id="o8">
+        <button id="aq8" onclick="verify('a', 'q8')">round(7.25)</button>
+        <button id="bq8" onclick="verify('b', 'q8')">rnd(7.25)</button><br><br>
+        <button id="cq8" onclick="verify('c', 'q8')">MAth.round(7.25)</button>
+        <button id="dq8" onclick="verify('d', 'q8')">MAth.rnd(7.25)</button>
+    </div>
+    <div class="q9" id="q9"><p>How do you declare a JavaScript variable?</p></div>
+    <div class="o9" id="o9">
+        <button id="aq9" onclick="verify('a', 'q9')">var variableNAme</button>
+        <button id="bq9" onclick="verify('b', 'q9')">let variableNAme</button><br><br>
+        <button id="cq9" onclick="verify('c', 'q9')">const variableNAme</button>
+        <button id="dq9" onclick="verify('d', 'q9')">All of the above</button>
+    </div>
+    <div class="q10" id="q10"><p>How do you check if a variable is an array in JavaScript? </p></div>
+    <div class="o10" id="o10">
+        <button id="aq10" onclick="verify('a', 'q10')">isArray(x) </button>
+        <button id="bq10" onclick="verify('b', 'q10')"> x.isArray() </button><br><br>
+        <button id="cq10" onclick="verify('c', 'q10')">x instanceof Array </button>
+        <button id="dq10" onclick="verify('d', 'q10')">typeof Array </button>
+    </div>
+    <div class="q11" id="q11"><button style="color: white;" onclick="displayScore()">View Score</button><br></div>
+    <p id="Score"></p><br>
+    <button style="display: none;" id="restart" onclick="window.location.reload()">Replay</button>
+</center></body>
+<script src="script.js"></script>
+</html>

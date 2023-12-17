@@ -1,0 +1,37 @@
+body{
+    background: url(back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Broadway';
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10{
+    font-size: 3.5em;
+    color: gold;
+}
+
+.q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11,
+.o2, .o3, .o4, .o5, .o6, .o7, .o8, .o9, .o10{
+    display: none;
+}
+
+button{
+    background: none;
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    font-size: 2em;
+    font-family: 'Broadway';
+    margin: 20 50;
+    color: white;
+}
+
+#score{
+    display: none;
+    color: white;
+    font-size: 2em;
+}
