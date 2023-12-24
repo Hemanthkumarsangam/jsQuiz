@@ -1,5 +1,5 @@
 body{
-    background: url(back.gif);
+    background: url(b2.gif);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Broadway';
@@ -21,13 +21,11 @@ h1{
 }
 
 button{
-    background: none;
-    backdrop-filter: blur(20px);
     padding: 50px;
     font-size: 2em;
     font-family: 'Broadway';
     margin: 20 50;
-    color: white;
+    border-radius: 50px;
 }
 
 #score{
